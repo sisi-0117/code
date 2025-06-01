@@ -1,0 +1,233 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+li {
+float: left;
+}
+li a, .dropbtn {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+background-color: rgba(129, 191, 216, 0.651);
+}
+li.dropdown {
+display: inline-block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.container {
+position: relative;
+}
+.center {
+position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+font-size: 50px;
+font-style:oblique
+}
+img {
+width: 100%;
+height:100%;
+}
+div.gallery {
+border: 1px solid #ccc;
+}
+div.gallery:hover {
+border: 1px solid #777;
+}
+div.gallery img {
+width: 320;
+height: 400;
+
+}
+div.desc {
+padding: 15px;
+text-align: center;
+}
+* {
+box-sizing: border-box;
+}
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+.responsive {
+width: 49.99999%;
+margin: 6px 0;
+}
+}
+@media only screen and (max-width: 500px) {
+.responsive {
+width: 100%;
+}
+}
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+.a{
+font-size: 30px;
+font-style: italic;
+text-shadow: 2px 2px 5px rgb(128, 201, 121);
+
+}
+.b{
+font-size: 15px;
+font-style: italic;
+}
+
+</style>
+</head>
+<body>
+<ul>
+<li><a href="project1.html">HOME</a></li>
+<li><a href="project2.html">ARTIST</a></li>
+<li class="dropdown"><a href="javascript:void(0)"
+class="dropbtn">MORE</a>
+<div class="dropdown-content">
+<a htef="03.html">GALLERY</a>
+<a href="01.html">FAMOUS ARTIST TOP5</a>
+<a href="02.html">CONTACT</a>
+</div>
+</li>
+</ul>
+<div class="container"></div>
+<h2 class="a">Marry's Gallery</h2>
+<h4 class="b">artworks</h4>
+<div class="responsive">
+<div class="gallery">
+<a target="_blank"
+href="https://media.nga.gov/iiif/6dc9ca49-ea8c-4314-985a-ba2cfc3965cd/full
+/!588,600/0/default.jpg">
+
+<img
+src="https://media.nga.gov/iiif/6dc9ca49-ea8c-4314-985a-ba2cfc3965cd/full/
+!588,600/0/default.jpg" alt="Cinque Terre" width="600" height="400">
+</a>
+<div class="desc">Little girl in a blue armchair (1878)</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+<a target="_blank"
+href="https://upload.wikimedia.org/wikipedia/commons/d/d8/Mary_Cassatt_-_T
+he_Boating_Party_-_Google_Art_Project.jpg">
+<img
+src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Mary_Cassatt_-_Th
+e_Boating_Party_-_Google_Art_Project.jpg" alt="Forest" width="600"
+height="400">
+</a>
+<div class="desc">The boating party(1893)</div>
+</div>
+</div>
+<div class="responsive">
+<div class="gallery">
+<a target="_blank"
+href="https://lh3.googleusercontent.com/ci/AL18g_QuCE3y8tqs961J4mtpTqsVKlO
+SvZxagm_r212rirwyfjMPXiKl7V2Lk59t2OYGQ-BPwDWoNHc">
+<img
+src="https://yourarthome.com/cdn/shop/products/YAH_0814_grande.png?v=1630064424" alt="child" width="600"
+height="400">
+<div class="desc">The child's bath (1893)
+</div>
+</div>
+</div>
+<div class="responsive">
+<div class="gallery">
+
+<a target="_blank"
+href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/13758/468
+23/restricted">
+<img
+src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/13758/4682
+3/restricted" alt="Mountains" width="600" height="400">
+</a>
+<div class="desc">Lilacs in the window(1879)</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div style="padding:6px;">
+</div>
+<div class="responsive">
+<div class="gallery">
+<a target="_blank"
+href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRleBDa3ysOyGXf
+ybnouQO7Cra8Lnl0DOiQpjeCRvl96Q&s" >
+
+<img
+src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRleBDa3ysOyGXfy
+bnouQO7Cra8Lnl0DOiQpjeCRvl96Q&s"alt="Cinque Terre" width="600"
+height="400">
+</a>
+<div class="desc">The child in Straw hat(1889)</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+<a target="_blank"
+href="https://collectionapi.metmuseum.org/api/collection/v1/iiif/10388/324
+83/restricted">
+<img
+src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/10388/3248
+3/restricted" alt="Forest" width="600" height="400">
+</a>
+
+<div class="desc">The Cup of tea(1879)</div>
+</div>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+<a target="_blank"
+href="https://i.ebayimg.com/images/g/5UYAAOSwS-tiM4zc/s-l1200.webp">
+<img
+src="https://i.ebayimg.com/images/g/5UYAAOSwS-tiM4zc/s-l1200.webp"
+alt="Mountains" width="600" height="400">
+</a>
+<div class="desc">Miss Marry Elison(1880)</div>
+</div>
+</div>
+<div class="clearfix"></div>
+<div style="padding:6px;">
+</div>
+.......
+</body>
+
+</html>

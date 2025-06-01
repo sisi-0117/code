@@ -1,0 +1,171 @@
+
+<html>
+<head>
+<style>
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+li {
+float: left;
+}
+li a, .dropbtn {
+display: inline-block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+background-color: rgba(129, 191, 216, 0.651);
+}
+li.dropdown {
+display: inline-block;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+
+text-decoration: none;
+display: block;
+text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.container {
+position: relative;
+}
+.center {
+position: absolute;
+top: 50%;
+width: 100%;
+text-align: center;
+font-size: 50px;
+font-style:oblique
+}
+
+img{
+width:350px;
+height: 400px;
+}
+body {
+background-color: #E7E9EB;
+}
+#myDIV {
+height: 300px;
+background-color:rgb(255, 255, 151) ;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: strech;
+
+}
+h1 {
+text-shadow: 2px 2px rgb(248, 213, 14);
+}
+#myDIV div {
+height: 50%;
+}
+.column {
+float: left;
+width: 33.33%;
+padding: 20px;
+}
+/* Clear floats after the columns */
+.row::after {
+content:2px;
+display: table;
+clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other
+instead of next to each other */
+@media screen and (max-width:600px) {
+.column {
+width: 100%;
+}
+}
+
+</style>
+</head>
+<body>
+<ul>
+<li><a href="project1.html">HOME</a></li>
+<li><a href="project2.html">ARTIST</a></li>
+
+<li class="dropdown"><a href="javascript:void(0)"
+class="dropbtn">MORE</a>
+<div class="dropdown-content">
+<a href="03.html">GALLERY</a>
+<a href="01.html">FAMOUS ARTIST TOP5</a>
+<a href="02.html">CONNECT</a>
+</div>
+</li>
+</ul>
+
+<h1>World famous artist's</h1>
+<div class="column">
+<div id="myDIV">
+<div > <img
+src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSn9ASPssbShveAIP6lP
+Rx9FqqQFcSOfMgbR4HwVpkm5qdof7PUUmRbCsaFpCRGhnbJ" alt="Sandwich" >
+<h3>Leonardo da vinci 1452-1519</h3>
+<p>Leonardo di ser Piero da Vinci[b] (15 April 1452 2 May 1519) was
+an Italian polymath of the High Renaissance who was
+active as a painter, draughtsman, engineer, scientist, theorist,
+sculptor, and architect.</p></div>
+<div > <img
+src="https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcSsjpbVgzcRL6vWlwl4H
+KRbXLrp1LiIDZpeh3HRkFD3ZiJpPMgDo1ZrMxK7d7OqG_1H" alt="Steak" >
+<h3>Vincent Van Gogh 1853-1890 </h3>
+<p>Vincent Willem van Gogh (30 March 1853 29 July 1890) was a Dutch
+Post-Impressionist painter who is among the most famous and
+influential figures in the history of Western art. In just over a decade,
+he
+created approximately 2100 artworks, including around 860 oil
+paintings, most of them in the last two years of his life</p></div>
+<div> <img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picas
+so_1.jpg/640px-Pablo_picasso_1.jpg" alt="Cherries" >
+
+<h3>Pablo Picasso 1881-1973</h3>
+<p>Pablo Ruiz Picasso[a][b] (25 October 1881 8 April 1973) was a
+Spanish painter, sculptor, printmaker, ceramicist,
+and theatre designer who spent most of his adult life in France.
+</p></div>
+<div > <img
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cropped_ver
+sion_of_Jan_Vermeer_van_Delft_002.jpg/220px-Cropped_version_of_Jan_Vermeer
+_van_Delft_002.jpg">
+<h3>Johannes Vermeer 1632-1675</h3>
+<p>Johannes Vermeer see below; also known as Jan Vermeer( October
+1632 15 December 1675) was a Dutch Baroque Period painter who specialized
+in domestic
+interior scenes of middle-class life. He is considered one of the
+greatest painters of the Dutch Golden Age.</p></div>
+<div> <img
+src="https://hips.hearstapps.com/hmg-prod/images/salvador-dali-gettyimages
+-2695565.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" alt="el Salvador">
+<h3>Salvador Dali 1904-1989</h3>
+<p>Salvador Domingo Felipe Jacinto Dalí i Domènech, Marquess of Dalí of
+Púbol gcYC (11 May 1904 23 January 1989), known as Salvador Dalí was a
+Spanish surrealist
+artist renowned for his technical skill, precise draftsmanship, and
+the striking and bizarre images in his work.</p></div>
+</div>
+</div>
+
+</body>
+</html>
